@@ -1,0 +1,13 @@
+plugins {
+    id 'java'
+}
+
+
+
+dependencies {
+    testImplementation 'org.testng:testng:7.4.0'
+    implementation 'io.appium:java-client:8.5.1'
+}
+test {
+    useTestNG()
+}
